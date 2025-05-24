@@ -1,0 +1,37 @@
+.category-page {
+  padding-top: 0;
+}
+
+.category-header {
+  background-color: var(--background-light);
+  padding: var(--spacing-xl) 0;
+  margin-bottom: var(--spacing-xl);
+  text-align: center;
+}
+
+.category-title {
+  font-size: 2.5rem;
+  margin-bottom: var(--spacing-md);
+  color: var(--text-color);
+}
+
+.category-description {
+  max-width: 800px;
+  margin: 0 auto;
+  color: var(--text-light);
+  font-size: 1.1rem;
+}
+
+.category-content {
+  margin-bottom: var(--spacing-xl);
+}
+
+@media (max-width: 768px) {
+  .category-title {
+    font-size: 2rem;
+  }
+  
+  .category-description {
+    font-size: 1rem;
+  }
+}
